@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+	numeros := [5]int{1, 2, 3, 4, 5}
+
+	numerosSlice := numeros[0:1]
+	fmt.Println(numerosSlice)
+
+	numerosSlice = numeros[1:2]
+	fmt.Println(numerosSlice)
+
+	numerosSlice = numeros[2:3]
+	fmt.Println(numerosSlice)
+
+	numerosSlice = numeros[3:4]
+	fmt.Println(numerosSlice)
+
+	numerosSlice = numeros[4:5]
+	fmt.Println(numerosSlice)
